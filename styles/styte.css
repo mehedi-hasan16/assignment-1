@@ -12,8 +12,9 @@ header{
 .header-title{
     width: 525px;
     color: white;
-   float: right;
-   margin: 230px 150px 0 0;
+    float: right;
+    text-align: right;
+    margin: 230px 150px 0 0;
 }
 .btn{
     padding: 15px;
