@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+
+    background-image: url(../images/banner/banner.png);
+    height:650px;
+    background-size: cover;
+
+}
+.header-title{
+    width: 525px;
+    color: white;
+   float: right;
+   margin: 230px 150px 0 0;
+}
+.btn{
+    padding: 15px;
+    color: #005FAC;
+    background-color: white;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 60px 200px;
+}
+
+.container img{
+    width: 40%;
+}
+.container-content img{
+    width: 4%;
+}
+.container-content ul li{
+    padding: 5px;
+    list-style: none;
+}
+
+.my-plan{
+   text-align: center;
+    margin: 50px 0;
+}
+.plan-catagories{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    
+}
+
+.featness{
+    background-image:url("../images/others/watch.png"), linear-gradient(to left, rgba(255,0,0,0), rgba(243, 16, 16, 0.747));
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    height:300px;
+    margin: 0 150px;
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+}
+.feetness-content{
+
+    margin-left: 50px;
+    color: white;
+    
+}
+
+footer{
+    background-color: black;
+    margin-top: 50px;
+}
+.footer-body{
+    /* height: 350px; */
+    
+    display: flex;
+    color: white;
+    gap: 50px;
+    padding: 100px;
+    margin: 0 150px;
+}
+
+.subs-btn{
+    padding: 15px;
+    color: white;
+    background-color: #005FAC;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+}
+.subscribe input{
+
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding:15px;
+    margin-bottom: 15px;
+}
+
+.primary-margin{
+    margin: 20px 0;
+}
+.comment{
+    margin: 0 150px;
+}
+.comment h1{
+
+    margin: 50px 0;
+    text-align: center;
+}
+.comment-body{
+    background-color: lightskyblue;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.comment-body input, textarea{
+ display: block;
+ padding: 15px;
+ margin: 10px;
+ border-radius: 5px;
+ border: none;
+}
+.send-btn{
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
